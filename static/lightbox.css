@@ -1,0 +1,35 @@
+td a{
+cursor: pointer;
+text-decoration: none;
+color: rgb(235, 44, 44);
+}
+
+#img{
+    display:none;
+}
+
+.lightbox{
+    position: fixed;
+    z-index: 1000;
+    right: 277px;
+    width: 22%;
+    top: 32px;
+    height: 67%;
+    background-color: rgba(0,0,0,0.4);
+    display: none;
+}
+
+.lightbox.active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lightbox img{
+    max-width: 90%;
+    max-height: 90%;
+    padding: 4px;
+    background-color: black;
+    border: 2px solid white;
+
+}

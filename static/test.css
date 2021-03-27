@@ -1,0 +1,9 @@
+td a{
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(235, 44, 44);
+    }
+    
+    #img{
+        display:none;
+    }
