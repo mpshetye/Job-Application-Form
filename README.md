@@ -1,12 +1,4 @@
 # Job-Application-Form
-. Technologies used were, Ajax, NodeJs, Express, Mongoose, and MongoDB
-
-## Dependencies
-Run this line in your terminal to install the dependencies:
-npm i express pug multer mongoose
-
-## Dev Dependencies
-npm i nodemon
 
 ## Table of contents
 * [General info](#general-info)
