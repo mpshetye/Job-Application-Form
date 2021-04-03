@@ -23,7 +23,7 @@ Project is created with:
 
 	
 ## Setup
-To run this project, install it locally using npm:
+To run this project, install it using npm:
 
 ```
 $ npm install
@@ -35,4 +35,3 @@ or
 $ npm install
 $ npm run start
 ```
-You will then be able to access it at localhost
