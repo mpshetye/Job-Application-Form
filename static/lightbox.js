@@ -1,4 +1,5 @@
 const lightbox = document.createElement('div');
+// lightbox.id = 'lightbox';
 document.body.appendChild(lightbox);
 lightbox.classList.add('lightbox');
 
