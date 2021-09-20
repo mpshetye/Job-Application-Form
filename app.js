@@ -14,6 +14,7 @@ app.use(express.urlencoded({ extended: true }));
 app.set("view engine", "pug");
 app.set("views", path.join(__dirname, "views"));
 
+
 //Create database connection
 mongoose.connect(process.env.DB_HOST, {
   useNewUrlParser: true,
@@ -27,6 +28,7 @@ app.listen(port, () => {
 }).catch((err)=>{
   console.log(err);
 });
+
 
 //RENDERING FORM
 app.get("/", (req, res) => {
