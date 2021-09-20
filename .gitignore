@@ -1,2 +1,4 @@
 node_modules/
 ExtraFiles/
+/.env
+.vscode/
