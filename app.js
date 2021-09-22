@@ -4,6 +4,7 @@ const path = require("path");
 const mongoose = require("mongoose");
 const multer = require("multer");
 const crypto = require("crypto");
+const applicationRoutes = require('./routes/applicationRoute');
 
 
 const app = express();
@@ -34,3 +35,5 @@ app.listen(port, () => {
 app.get("/", (req, res) => {
   res.status(200).render("index.pug");
 });
+
+app.use('/job-app-applicant', applicationRoutes);
