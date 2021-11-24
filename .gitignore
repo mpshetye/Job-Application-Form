@@ -1,4 +1,8 @@
 node_modules/
 ExtraFiles/
 /.env
+<<<<<<< HEAD
 .vscode/
+=======
+.vscode/
+>>>>>>> 37478940346da7b949b0dd2ec3b7a088ddbe45ed
